@@ -10,7 +10,7 @@ import java.util.Scanner;
  * @version 7.3
  */
 public class InputReader
-{
+{ 
     private Scanner reader;
 
     /**

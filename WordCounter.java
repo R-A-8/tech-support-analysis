@@ -20,6 +20,8 @@ public class WordCounter
         counts = new HashMap<>();
     }
     
+  
+    
     /**
      * Update the usage count of all words in input.
      * @param input A set of words entered by the user.
@@ -27,8 +29,14 @@ public class WordCounter
     public void addWords(HashSet<String> input)
     {
         for(String word : input) {
-            int counter = counts.getOrDefault(word, 0);
-            counts.put(word, counter + 1);
+            Integer counter = counts.get(word);
+            if(counter == null) {
+              counts.put(word,1);
+             }
+            else{
+              counts.put(word, counter + 1);
+             }
+            
         }
     }
 }
