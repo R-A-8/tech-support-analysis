@@ -27,3 +27,9 @@ Then start describing your problem by typing in the terminal window.
 
 The purpose of this project is to demonstrate and study library classes, such 
 as ArrayList, HashMap, HashSet, and Random.
+
+Part III
+
+43. If the key is already being used, then the method returns its value. If not, it will give it a value and return null.
+
+44.
